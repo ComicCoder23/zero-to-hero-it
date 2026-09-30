@@ -1,0 +1,72 @@
+{
+  "title": "OSS plugs (local study only)",
+  "rule": "ComicCoder23 GitHub stays read-only. Study / local clone under /workspace only \u2014 no forks, pushes, or writes unless the operator unlocks.",
+  "source": "39-OSS-REPOS-FOR-LEVELING-MACHINE.md shortlist",
+  "count": 8,
+  "plugs": [
+    {
+      "id": "jobspy",
+      "name": "JobSpy",
+      "url": "https://github.com/speedyapply/JobSpy",
+      "license": "MIT",
+      "howItHelps": "Board ingestion into Job Queue / daily job updates (LinkedIn/Indeed/Glassdoor scrapes \u2192 New matches feed).",
+      "panel": "Job Queue"
+    },
+    {
+      "id": "jobsync",
+      "name": "Gsync / jobsync",
+      "url": "https://github.com/Gsync/jobsync",
+      "license": "MIT",
+      "howItHelps": "Reference JobSync-style tracker + AI resume match + MCP patterns for pipeline UI (not live API yet).",
+      "panel": "Job Queue / JobSync"
+    },
+    {
+      "id": "reactive-resume",
+      "name": "Reactive Resume",
+      "url": "https://github.com/reactive-resume/reactive-resume",
+      "license": "MIT",
+      "howItHelps": "Privacy-first CV builder \u2014 export help-desk PDF without TTM bleed.",
+      "panel": "Apply Kit / Portfolio Forge"
+    },
+    {
+      "id": "streak-calendar",
+      "name": "streak-calendar",
+      "url": "https://github.com/ilyaizen/streak-calendar",
+      "license": "MIT",
+      "howItHelps": "Habit / learning streak UI patterns for XP Forge panel.",
+      "panel": "Learning"
+    },
+    {
+      "id": "browser-use",
+      "name": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "license": "MIT",
+      "howItHelps": "Browser agents for board automation \u2014 human confirm before any submit; never unsolicited send.",
+      "panel": "Apply Kit / Submit Daemon"
+    },
+    {
+      "id": "playwright-mcp",
+      "name": "playwright-mcp",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "license": "Apache-2.0",
+      "howItHelps": "Safer MCP browser control for form prefill / LinkedIn draft paste (no auto-send).",
+      "panel": "Apply Kit / Credentials"
+    },
+    {
+      "id": "career-ops",
+      "name": "career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "license": "check LICENSE on clone",
+      "howItHelps": "Agent CLI: score JDs, tailor CV, track apps \u2014 model for Submit Daemon / Signal Harvester drafts.",
+      "panel": "Bot Team"
+    },
+    {
+      "id": "job-navigator",
+      "name": "JobNavigator",
+      "url": "https://github.com/vesaias/JobNavigator",
+      "license": "check LICENSE on clone",
+      "howItHelps": "Scrape + score + autofill + alerts patterns \u2014 maps to live board links, prefill, daily digests.",
+      "panel": "Job Queue / Apply Kit"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "jobBoards": [
+    { "name": "Totaljobs", "url": "https://www.totaljobs.com/jobs/it-support/in-glasgow" },
+    { "name": "Indeed UK", "url": "https://uk.indeed.com/jobs?q=IT+Help+Desk&l=Glasgow" },
+    { "name": "CWJobs", "url": "https://www.cwjobs.co.uk/jobs/it-support/in-glasgow" },
+    { "name": "IT Jobs Watch Scotland", "url": "https://www.itjobswatch.co.uk/jobs/scotland/help%20desk.do" },
+    { "name": "Evenbreak", "url": "https://www.evenbreak.co.uk/" },
+    { "name": "Reed", "url": "https://www.reed.co.uk/jobs/it-support-jobs-in-glasgow" },
+    { "name": "Hays", "url": "https://www.hays.co.uk/job-search/in-glasgow_4257104707261/it-helpdesk_1040414" }
+  ],
+  "recruiters": [
+    { "name": "Be-IT Resourcing", "url": "https://www.be-it.co.uk/" },
+    { "name": "Cathcart Associates", "url": "https://www.cathcartassociates.com/" },
+    { "name": "Denholm Associates", "url": "https://www.denholmassociates.com/" }
+  ],
+  "jobsync": {
+    "name": "JobSync tracker",
+    "url": "https://github.com/ComicCoder23/jobsync-tracker",
+    "note": "Read-only for agents"
+  },
+  "linkedin": {
+    "personalJoin": { "name": "LinkedIn — create personal account", "url": "https://www.linkedin.com/signup" },
+    "personalSignin": { "name": "LinkedIn — sign in", "url": "https://www.linkedin.com/login" },
+    "ttmSeparate": {
+      "name": "TTM profile — separate, do not merge",
+      "url": "https://www.linkedin.com/in/[redacted]-51477b82"
+    }
+  },
+  "sqa": [
+    { "name": "My Qualifications / MyResults portal", "url": "https://my.qualifications.gov.scot/" },
+    { "name": "SQA candidate services", "url": "https://www.sqa.org.uk/sqa/41292.html" }
+  ],
+  "funding": [
+    { "name": "Access to Work (GOV.UK)", "url": "https://www.gov.uk/access-to-work", "priority": "Priority" },
+    { "name": "Business Gateway", "url": "https://www.bgateway.com/", "priority": "Priority" },
+    { "name": "East Dunbartonshire Business Gateway (local)", "url": "https://www.eastdunbarton.gov.uk/business/business-gateway", "priority": "Priority" },
+    { "name": "GOV.UK benefits / Work Coach (FSF via Jobcentre)", "url": "https://www.gov.uk/browse/benefits", "priority": "Priority" },
+    { "name": "SDS My World of Work (ITA / skills)", "url": "https://www.myworldofwork.co.uk/", "priority": "Priority" },
+    { "name": "Just Enterprise", "url": "https://www.justenterprise.org/", "priority": "Social enterprise" },
+    { "name": "Firstport", "url": "https://www.firstport.org.uk/", "priority": "Social enterprise" },
+    { "name": "Turn2us Grants Search", "url": "https://grants-search.turn2us.org.uk/", "priority": "Meta-search" },
+    { "name": "Citizens Advice Bureau", "url": "https://www.citizensadvice.org.uk/", "priority": "benefits check" }
+  ],
+  "youtube": [
+    { "name": "NetworkChuck channel", "url": "https://www.youtube.com/@networkchuck" },
+    { "name": "NetworkChuck HELPDESK (first IT job)", "url": "https://www.youtube.com/live/gMU5bngGQ1E" },
+    { "name": "NetworkChuck — What is a SWITCH? FREE CCNA Day 1", "url": "https://www.youtube.com/watch?v=9eH16Fxeb9o" },
+    { "name": "Free Cisco CCNA 200-301 playlist", "url": "https://www.youtube.com/playlist?list=PLhfrWIlLOoKPc2RecyiM_A9nf3fUU3e6g" },
+    { "name": "NetworkChuck Academy CCNA", "url": "https://academy.networkchuck.com/course/cisco-ccna" },
+    { "name": "Professor Messer", "url": "https://www.professormesser.com/" },
+    { "name": "Professor Messer YouTube", "url": "https://www.youtube.com/@professormesser" },
+    { "name": "Alex Finn channel", "url": "https://www.youtube.com/@alexfinnofficial" },
+    { "name": "Alex Finn — Vibe Coding Masterclass", "url": "https://www.youtube.com/watch?v=VxD7_MRPebY" },
+    { "name": "Google IT Support (Coursera)", "url": "https://www.coursera.org/professional-certificates/google-it-support" },
+    { "name": "CompTIA A+ objectives", "url": "https://www.comptia.org/en/certifications/a/core-1-and-2-v15/" }
+  ],
+  "communities": [
+    { "name": "Comp2k Discord", "url": "https://discord.me/comp2khub" },
+    { "name": "The Network Node Discord", "url": "https://discord.com/servers/the-network-node-1344833218922156186" },
+    { "name": "AdjacentNode Discord entry", "url": "https://www.adjacentnode.com/discord" },
+    { "name": "Vibe Coding Club", "url": "https://vibecodingclub.co/" },
+    { "name": "NetworkChuck Academy (confirm Discord invite)", "url": "https://academy.networkchuck.com/" },
+    { "name": "DevOps SRE Infrastructure Discord", "url": "https://discord.com/servers/devops-sre-infrastructure-419745677585940482" },
+    { "name": "Open Source Glasgow Matrix invite", "url": "https://glasgow.social/matrix" }
+  ],
+  "meetups": [
+    { "name": "Tech Meetup Glasgow", "url": "https://www.meetup.com/techmeetup/" },
+    { "name": "Open Source Glasgow", "url": "https://www.meetup.com/open-source-glasgow/" },
+    { "name": "codebar Glasgow", "url": "https://codebar.io/glasgow" },
+    { "name": "Code Club @ William Patrick Library (kids 9–11 — ask adult path)", "url": "https://www.eventbrite.co.uk/e/code-club-william-patrick-library-tickets-1994183494514" }
+  ],
+  "projects": [
+    { "name": "Mum PC Helper", "url": "https://github.com/ComicCoder23/mums-pc-helper" },
+    { "name": "Look Up", "url": "https://github.com/ComicCoder23/lookup" },
+    { "name": "Look Up (Pages demo)", "url": "https://comiccoder23.github.io/lookup/" },
+    { "name": "Memory City", "url": "https://github.com/ComicCoder23/memory-city" },
+    { "name": "KCH Radar (GitHub only — do not claim Vercel live)", "url": "https://github.com/ComicCoder23/kch-radar" },
+    { "name": "ComicCoder23 profile", "url": "https://github.com/ComicCoder23" }
+  ]
+}

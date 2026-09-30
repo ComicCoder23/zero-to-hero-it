@@ -1,0 +1,155 @@
+{
+  "disclaimer": "Research aid only — not formal benefits, tax, or legal advice. Confirm with DWP, Social Security Scotland, CAB, Jobcentre Disability Employment Adviser, or accountant before acting. Figures below are DEMO placeholders for the public build.",
+  "profile": {
+    "goals": [
+      "Job ASAP",
+      "Recurring income from builds (tracked carefully)"
+    ]
+  },
+  "ucGuardrail": {
+    "label": "Demo work-allowance guardrail",
+    "approxAlanFigure": 1000,
+    "cpag2026_27": {
+      "withHousingElement": 800,
+      "withoutHousingElement": 1200,
+      "taperAbove": "demo taper rate — confirm with adviser"
+    },
+    "notes": [
+      "DEMO VALUES ONLY — not the operator's real figures",
+      "Work allowance is not a hard earnings cap",
+      "Confirm LCW / LCWRA rules with a work coach before acting",
+      "Self-employed must report income/expenses each assessment period",
+      "No auto income claims from this dashboard"
+    ],
+    "trackedEarningsThisPeriod": 250,
+    "currency": "DEMO"
+  },
+  "routes": [
+    {
+      "name": "Access to Work",
+      "priority": "Priority",
+      "why": "Self-employed eligible; equipment, software, travel, support workers",
+      "caveat": "Apply via GOV.UK; not for voluntary-only work",
+      "url": "https://www.gov.uk/access-to-work"
+    },
+    {
+      "name": "Business Gateway (Central Scotland) Start-Up Grant",
+      "priority": "Priority",
+      "why": "Local Central Scotland; free adviser path",
+      "caveat": "Retrospective on evidence; confirm local trading criteria",
+      "url": "https://www.bgateway.com/"
+    },
+    {
+      "name": "Flexible Support Fund",
+      "priority": "Priority",
+      "why": "Via Work Coach — course/exam fees often cited",
+      "caveat": "Discretionary",
+      "url": "https://www.gov.uk/browse/benefits"
+    },
+    {
+      "name": "Individual Training Accounts (Scotland)",
+      "priority": "Priority",
+      "why": "Annual support toward approved courses (scheme caps vary)",
+      "caveat": "Course must be on approved list; confirm SDS live status",
+      "url": "https://www.myworldofwork.co.uk/"
+    },
+    {
+      "name": "Just Enterprise",
+      "priority": "Strong if social-enterprise",
+      "why": "Free Scotland social-enterprise support",
+      "caveat": "Register → adviser",
+      "url": "https://www.justenterprise.org/"
+    },
+    {
+      "name": "Firstport Start It",
+      "priority": "Strong if social-enterprise",
+      "why": "Start-up support for social enterprises (scheme caps vary)",
+      "caveat": "Best after Just Enterprise/Firstport advice",
+      "url": "https://www.firstport.org.uk/"
+    }
+  ],
+  "archiveLowFit": [
+    {
+      "name": "King's Trust Enterprise",
+      "status": "Age-banded — check current eligibility"
+    },
+    {
+      "name": "Start Up Loans",
+      "status": "Loan not grant — not immediate need"
+    },
+    {
+      "name": "New Enterprise Allowance",
+      "status": "Closed to new applicants"
+    },
+    {
+      "name": "Fair Start Scotland",
+      "status": "Closed to new referrals (Mar 2024)"
+    }
+  ],
+  "bots": [
+    "Grant Router",
+    "Ledger Sentinel",
+    "Watt Watcher"
+  ],
+  "extraLinks": [
+    {
+      "name": "Turn2us Grants Search",
+      "url": "https://grants-search.turn2us.org.uk/"
+    },
+    {
+      "name": "Citizens Advice",
+      "url": "https://www.citizensadvice.org.uk/"
+    },
+    {
+      "name": "Business Gateway national",
+      "url": "https://www.bgateway.com/"
+    }
+  ],
+  "panelTitle": "Funding, Partnerships & Money",
+  "grantRouter": {
+    "geekyName": "Grant Router",
+    "roleLabel": "Funding + Partnerships",
+    "scope": "Scottish funding routes plus partnerships and collabs that could bring recurring income or support to the operator's builds, always filtered by the demo work-allowance guardrail and recovery constraints.",
+    "buildsInScope": [
+      "SCAM",
+      "Who's Funny Anyway",
+      "ComicCoder23",
+      "ComicCoder23 Builds",
+      "Tech Tradie Media (contained)",
+      "Alan App Labs",
+      "Stage Manager (contained / anonymous lane)"
+    ],
+    "partnerTypes": [
+      "Local businesses",
+      "Creators / educators",
+      "Communities & Discord/meetup hosts",
+      "Recovery organisations (internal networking — careful)",
+      "Tech companies / tool sponsors",
+      "Comedy / improv venues (WFA / Stage Manager contained)"
+    ],
+    "workflow": [
+      "Track potential partners (name, lane, fit, status)",
+      "Draft outreach — never send unless the operator asks",
+      "Flag demo-guardrail / recovery risk before any income-bearing collab",
+      "Hand money tracking to Ledger Sentinel; soft-pause to Watt Watcher"
+    ]
+  },
+  "partnershipPipeline": [
+    {
+      "name": "Placeholder — first partner scan",
+      "type": "To research",
+      "lane": "Any build",
+      "status": "Empty — Grant Router to populate",
+      "ucFit": "Must stay under demo work-allowance awareness",
+      "note": "No invented partners. Fill from real research only."
+    }
+  ],
+  "certificateReplacement": {
+    "item": "Certificate replacement",
+    "costGbp": 99,
+    "orderOn": "14th (operator-stated — confirm which month)",
+    "status": "Planned spend (demo figure)",
+    "note": "DEMO: certificate replacement figure — order on the 14th. Track against demo work-allowance with Ledger Sentinel.",
+    "panel": "Funding"
+  }
+}

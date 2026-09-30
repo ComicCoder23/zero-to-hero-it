@@ -1,0 +1,33 @@
+{
+  "fullName": "ComicCoder23",
+  "email": "",
+  "phone": "",
+  "phonePlaceholder": "Add when applying — do not invent",
+  "addressLine": "",
+  "locationForApps": "Glasgow / Central Scotland (job-search region)",
+  "rightToWork": "UK — eligible to work in the United Kingdom",
+  "availability": "Immediate / notice to be confirmed with the operator",
+  "github": "ComicCoder23",
+  "githubUrl": "https://github.com/ComicCoder23",
+  "linkedinPersonal": {
+    "status": "not created — draft ready in package 35",
+    "url": "",
+    "joinUrl": "https://www.linkedin.com/signup",
+    "signinUrl": "https://www.linkedin.com/login"
+  },
+  "linkedinTtm": {
+    "label": "TTM profile — separate, do not merge",
+    "url": ""
+  },
+  "sqa": {
+    "scnCaptured": "",
+    "scnOutstanding": "",
+    "portalUsername": "",
+    "portalUrl": "https://my.qualifications.gov.scot/"
+  },
+  "educationSafe": "Computing Certificate (G5VS 15), SCQF Level 7, certificated Mar 2004 (SCN ) + NC Computing & IT. Do not claim HND awarded. HNC Computing only as pending confirmation from SCN  or paper cert — prefer Technical Support pathway incomplete wording.",
+  "jobsync": {
+    "url": "https://github.com/ComicCoder23/jobsync-tracker",
+    "note": "Private tracker — read-only for agents; log applications here after the operator unlocks"
+  }
+}

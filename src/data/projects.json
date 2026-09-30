@@ -1,0 +1,79 @@
+{
+  "identity": "ComicCoder23",
+  "githubBase": "https://github.com/ComicCoder23",
+  "rule": "Showcase may show public TTM (site) and Stage Manager (Instagram only). Job-safe ComicCoder23 cards stay free of TTM/Stage Manager. Never bleed either into Apply Kit, Job Queue, cover notes, or personal LinkedIn.",
+  "ttmShowcase": {
+    "name": "Tech Tradie Media",
+    "slug": "tech-tradie-media",
+    "featured": true,
+    "oneLiner": "Public-facing trade websites and local SEO for UK trades — the operator's furthest-ahead build.",
+    "publicOnly": true,
+    "note": "Portfolio showcase only. No pricing, CRM, Media OS, or internal ops on this tile.",
+    "url": "https://techtradiemedia.co.uk",
+    "publicLinks": [
+      {
+        "label": "Website",
+        "url": "https://techtradiemedia.co.uk"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://instagram.com/thetechtradiemedia"
+      },
+      {
+        "label": "LinkedIn (TTM profile)",
+        "url": "https://www.linkedin.com/in/[redacted]-51477b82"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "Mum PC Helper",
+      "slug": "mums-pc-helper",
+      "oneLiner": "Windows field-support kit — structured docs + audit-only PowerShell for safer home-PC checks",
+      "jobValue": "Primary 1st-line proof — customer calm + Windows troubleshooting",
+      "status": "Public repo",
+      "url": "https://github.com/ComicCoder23/mums-pc-helper"
+    },
+    {
+      "name": "Look Up",
+      "slug": "lookup",
+      "oneLiner": "Privacy-first eclipse companion (vanilla JS PWA) — learning proof",
+      "jobValue": "Honest junior builder signal; demo material",
+      "status": "Public repo + Pages",
+      "url": "https://github.com/ComicCoder23/lookup",
+      "demoUrl": "https://comiccoder23.github.io/lookup/"
+    },
+    {
+      "name": "Memory City",
+      "slug": "memory-city",
+      "oneLiner": "Local-first agent memory/ops — Docker / deploy experiment",
+      "jobValue": "Medium networking / local-first claim for L3 stretch",
+      "status": "Public repo",
+      "url": "https://github.com/ComicCoder23/memory-city"
+    },
+    {
+      "name": "KCH Radar",
+      "slug": "kch-radar",
+      "oneLiner": "Central Scotland local discovery (React/Vite)",
+      "jobValue": "GitHub-only proof until live URL rechecked",
+      "status": "GitHub only — do not claim Vercel live (404)",
+      "url": "https://github.com/ComicCoder23/kch-radar"
+    }
+  ],
+  "stageManagerShowcase": {
+    "name": "Stage Manager",
+    "slug": "stage-manager",
+    "oneLiner": "Improv comedy Stage Manager persona / app — public Instagram only; no website found.",
+    "publicOnly": true,
+    "anonymousLane": true,
+    "note": "Anonymous kayfabe lane. Showcase Instagram only. Do not put on Apply Kit, cover notes, or personal LinkedIn.",
+    "url": "https://www.instagram.com/th3.st4ge.manag3r/",
+    "websiteUrl": null,
+    "publicLinks": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/th3.st4ge.manag3r/"
+      }
+    ]
+  }
+}

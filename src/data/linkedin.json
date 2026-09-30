@@ -1,0 +1,39 @@
+{
+  "personal": {
+    "status": "draft-ready",
+    "accountCreated": false,
+    "draftFile": "35-PERSONAL-LINKEDIN-DRAFT.md",
+    "headline": "IT Help Desk / 1st Line Support | Glasgow",
+    "audience": "Recruiters / jobs — Scotland help desk",
+    "hardBan": [
+      "Tech Tradie Media",
+      "techtradiemedia.co.uk",
+      "trade-websites founder pitch",
+      "TTM banners"
+    ],
+    "allowedProof": [
+      "ComicCoder23 GitHub",
+      "Optional one-line ComicCoder23 Builds"
+    ],
+    "signupNote": "Use a different email than the TTM LinkedIn login so the two stay separate.",
+    "openToWork": [
+      "IT Support",
+      "Help Desk Analyst",
+      "Service Desk",
+      "Desktop Support",
+      "Junior IT Support"
+    ],
+    "recruiterPass": {
+      "status": "in_progress",
+      "note": "Operator: LinkedIn pass for recruiters in progress. Account not created yet — draft file 35 only."
+    }
+  },
+  "ttmProfile": {
+    "note": "TTM profile — separate, do not merge",
+    "urlSlug": "",
+    "purpose": "TTM / trades business space only",
+    "action": "Leave as-is. Showcase tile may link public URL. Do not merge into personal job profile or Apply Kit copy.",
+    "url": ""
+  },
+  "separationRule": "Two separate LinkedIn presence. Never merge. Personal job profile has zero TTM."
+}

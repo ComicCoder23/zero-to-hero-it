@@ -1,0 +1,215 @@
+{
+  "packagePath": "/workspace/alan-portfolio-package/",
+  "chatgptPlan": {
+    "status": "not found",
+    "note": "ChatGPT job-machine plan never recovered. This package is the free-first jobs/learning/volunteering machine."
+  },
+  "files": [
+    {
+      "id": "README",
+      "file": "README.md",
+      "purpose": "Index + doctrine + immediate human decisions"
+    },
+    {
+      "id": "01",
+      "file": "01-SOURCE-AUDIT.md",
+      "purpose": "What was found vs missing across Hermes/Studio/Grok"
+    },
+    {
+      "id": "02",
+      "file": "02-CV-DRAFT.md",
+      "purpose": "Grounded private CV draft + [UNVERIFIED] gaps"
+    },
+    {
+      "id": "03",
+      "file": "03-JOB-APPLICATION.md",
+      "purpose": "Help-desk targeting + cover note + apply doctrine"
+    },
+    {
+      "id": "04",
+      "file": "04-LEARNING-PLAN.md",
+      "purpose": "12-week free/cert learning outline"
+    },
+    {
+      "id": "05",
+      "file": "05-VOLUNTEERING.md",
+      "purpose": "High-payoff volunteering only (Scotland)"
+    },
+    {
+      "id": "06",
+      "file": "06-LEVELING-MACHINE.md",
+      "purpose": "Assets \u2192 job levels L1\u2013L6 + SCAM parallel"
+    },
+    {
+      "id": "07",
+      "file": "07-DAILY-JOB-UPDATES.md",
+      "purpose": "Daily job digest design (not running yet)"
+    },
+    {
+      "id": "08",
+      "file": "08-DAILY-LEARNING-UPDATES.md",
+      "purpose": "Daily learning digest design"
+    },
+    {
+      "id": "09",
+      "file": "09-YOUTUBE-SKILLS.md",
+      "purpose": "NetworkChuck / Alex Finn / Messer URLs"
+    },
+    {
+      "id": "10",
+      "file": "10-COMMUNITIES-PEOPLE.md",
+      "purpose": "Creators, Glasgow orgs, recruiters"
+    },
+    {
+      "id": "11",
+      "file": "11-DISCORD-TELEGRAM-SLACK.md",
+      "purpose": "Chat communities + hygiene"
+    },
+    {
+      "id": "12",
+      "file": "12-LOCAL-MEETUPS.md",
+      "purpose": "Central Scotland + Glasgow meetup calendar"
+    },
+    {
+      "id": "13",
+      "file": "13-IT-HELPDESK-STRETCH.md",
+      "purpose": "L1 help desk + stretch ladder + A+ vs Security+"
+    },
+    {
+      "id": "14",
+      "file": "14-GROK-PORTFOLIO-EXTRACT.md",
+      "purpose": "Grok portfolio chat facts + limits"
+    },
+    {
+      "id": "15",
+      "file": "15-ALAN-OPERATING-PRINCIPLES.md",
+      "purpose": "North Star, apply doctrine, CV filter, access rules"
+    },
+    {
+      "id": "16",
+      "file": "16-PC-INTERESTS-YOUTUBE.md",
+      "purpose": "ALAN-STUDIO PC/YT interest evidence"
+    },
+    {
+      "id": "17",
+      "file": "17-EMAIL-INTERESTS.md",
+      "purpose": "Gmail-backed hobbies for CV Interests"
+    },
+    {
+      "id": "18",
+      "file": "18-SOCIALS-AND-PLANNING.md",
+      "purpose": "SCAM umbrella + WFA / ComicCoder23 / AGB"
+    },
+    {
+      "id": "19",
+      "file": "19-BOT-TEAM.md",
+      "purpose": "8 career bots + shared rules"
+    },
+    {
+      "id": "20",
+      "file": "20-FUNDING-TRACK.md",
+      "purpose": "Scotland funding + benefits interaction (demo)"
+    },
+    {
+      "id": "21",
+      "file": "21-STANDING-ACCESS-RULES.md",
+      "purpose": "GitHub RO, TTM contained, writable area"
+    },
+    {
+      "id": "22",
+      "file": "22-LIFE-OS-CHRONOLOGY-ASSESSMENT.md",
+      "purpose": "Life OS read assessment + residual TTM flag"
+    },
+    {
+      "id": "23",
+      "file": "23-BOT-ROSTER-NAMES.md",
+      "purpose": "Geeky bot display names"
+    },
+    {
+      "id": "24",
+      "file": "24-ROSTER-CONSOLIDATION.md",
+      "purpose": "Education+Voluntary \u2192 XP Forge merge note"
+    },
+    {
+      "id": "25",
+      "file": "25-RECOVERY-BUILDERS-UK.md",
+      "purpose": "Short UK recovery-builder peer scan (internal)"
+    },
+    {
+      "id": "26",
+      "file": "26-RECOVERY-NETWORK-DOSSIER.md",
+      "purpose": "Full peer dossiers (internal)"
+    },
+    {
+      "id": "27",
+      "file": "27-CV-STACK-AUDIT.md",
+      "purpose": "All G Drive CVs stacked + date conflicts"
+    },
+    {
+      "id": "28",
+      "file": "28-CHANNEL-ISLANDS-HOSPITALITY.md",
+      "purpose": "L\u2019Horizon / Jerbourg / Merton evidence"
+    },
+    {
+      "id": "29",
+      "file": "29-EARLY-JOBS-RECOLLECTION.md",
+      "purpose": "Teenage jobs (recollection only)"
+    },
+    {
+      "id": "30",
+      "file": "30-EDUCATION-HISTORY.md",
+      "purpose": "Colleges + HNC/HND honesty + SQA action"
+    },
+    {
+      "id": "31",
+      "file": "31-SQA-DUAL-ACCOUNTS.md",
+      "purpose": "Two SCNs + retrieve action"
+    },
+    {
+      "id": "32",
+      "file": "32-SQA-RESULTS.md",
+      "purpose": "MyResults capture SCN "
+    },
+    {
+      "id": "33",
+      "file": "33-LINKEDIN-TTM-VS-PERSONAL.md",
+      "purpose": "Keep TTM LI; create separate job LI"
+    },
+    {
+      "id": "34",
+      "file": "34-PACKAGE-AUDIT-AND-PLAN.md",
+      "purpose": "Package audit + prioritised next plan"
+    },
+    {
+      "id": "35",
+      "file": "35-PERSONAL-LINKEDIN-DRAFT.md",
+      "purpose": "Personal LinkedIn draft \u2014 not created"
+    },
+    {
+      "id": "36",
+      "file": "36-LEVELING-MACHINE-FRONTEND-PLAN.md",
+      "purpose": "This dashboard plan"
+    },
+    {
+      "id": "37",
+      "file": "37-LEVELING-MACHINE-FRONTEND.md",
+      "purpose": "Frontend build status note"
+    },
+    {
+      "id": "39",
+      "file": "39-OSS-REPOS-FOR-LEVELING-MACHINE.md",
+      "purpose": "OSS plugs shortlist for dashboard"
+    },
+    {
+      "id": "40",
+      "file": "40-META-GOAL-STATUS.md",
+      "purpose": "Autonomous meta-goal done vs open"
+    },
+    {
+      "id": "38",
+      "file": "38-LEVELING-MACHINE-PARENTS.md",
+      "purpose": "Parent systems / OSS cousins scored vs operator stack"
+    }
+  ],
+  "ossPlugsNote": "See ossPlugs.json + Package Library card \u2014 local study only, no GitHub write."
+}
