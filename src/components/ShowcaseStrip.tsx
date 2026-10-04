@@ -67,15 +67,43 @@ export const SHOWCASE_JOB_SAFE: ShowcaseItem[] = SHOWCASE_FULL.filter(
     item.name !== 'Tech Tradie Media' && item.name !== 'Stage Manager',
 )
 
+/** Employer-facing Tier A only (JobOps lock 2026-10-04). */
+export const SHOWCASE_TIER_A: ShowcaseItem[] = [
+  {
+    name: 'Mum PC Helper',
+    blurb: 'Windows field kit',
+    orbClass: 'orb-mum',
+    url: 'https://github.com/ComicCoder23/mums-pc-helper',
+    featured: true,
+  },
+  {
+    name: 'Look Up',
+    blurb: 'Eclipse PWA',
+    orbClass: 'orb-lookup',
+    url: 'https://comiccoder23.github.io/lookup/',
+  },
+  {
+    name: 'zero-to-hero-it',
+    blurb: 'Career leveling record',
+    orbClass: 'orb-cc23',
+    url: 'https://github.com/ComicCoder23/zero-to-hero-it',
+  },
+]
+
 type Props = {
   items?: ShowcaseItem[]
-  /** "full" = include public TTM tile; "jobSafe" = ComicCoder23 builds only */
-  variant?: 'full' | 'jobSafe'
+  /** "full" = legacy showcase; "jobSafe" = no TTM; "tierA" = employer-facing three only */
+  variant?: 'full' | 'jobSafe' | 'tierA'
 }
 
-export function ShowcaseStrip({ items, variant = 'full' }: Props) {
+export function ShowcaseStrip({ items, variant = 'tierA' }: Props) {
   const list =
-    items ?? (variant === 'jobSafe' ? SHOWCASE_JOB_SAFE : SHOWCASE_FULL)
+    items ??
+    (variant === 'jobSafe'
+      ? SHOWCASE_JOB_SAFE
+      : variant === 'full'
+        ? SHOWCASE_FULL
+        : SHOWCASE_TIER_A)
 
   return (
     <div className="showcase-strip">
