@@ -5,9 +5,9 @@
   "geography": "Glasgow · Central Scotland · Scotland hybrid / remote",
   "doctrine": [
     "Free to apply — no budget gate",
-    "Numbers game — broaden beyond perfect fits",
-    "Every interview is experience",
-    "Continuous apply while learning",
+    "Quality applications over spray",
+    "Applied count stays 0 until Alan confirms send",
+    "Continuous learn while preparing to apply",
     "Voluntary work and free learning count as XP"
   ],
   "prioritiesP0": [
@@ -34,8 +34,8 @@
     },
     {
       "id": "p0-applies",
-      "label": "Send 3–5 help-desk / any-job applications",
-      "why": "North Star = apply now; pipeline not live yet",
+      "label": "Approve pack, then first confirmed application",
+      "why": "Applied stays 0 until Alan says send; drafts only until then",
       "owner": "Submit Daemon drafts → the operator confirms",
       "status": "blocked-on-pack"
     }
