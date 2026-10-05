@@ -11,7 +11,7 @@
     {
       "id": "uc-line",
       "severity": "watch",
-      "title": "UC LCW work-allowance line",
+      "title": "Work-allowance work-allowance line",
       "body": "Track every pound of earned / self-employed income against ~\u00a3500 Alan figure (CPAG ~\u00a3427 with housing / ~\u00a3710 without). Hand soft-pause to Watt Watcher before crossing without a CAB / Work Coach check.",
       "source": "20-FUNDING-TRACK.md \u00b7 Ledger Sentinel"
     },
@@ -26,7 +26,7 @@
       "id": "no-auto-income",
       "severity": "watch",
       "title": "No auto income claims",
-      "body": "This dashboard never claims earnings. Report UC assessment periods manually with Work Coach guidance.",
+      "body": "This dashboard never claims earnings. Report benefits assessment periods manually with Work Coach guidance.",
       "source": "Funding track disclaimer"
     },
     {
