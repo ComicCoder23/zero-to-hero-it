@@ -31,6 +31,12 @@ export function CommandHome() {
         </div>
         <div className="liquid-divider" />
         <ShowcaseStrip variant="tierA" />
+      <div className="card">
+        <h3>JobOps — do next</h3>
+        <p className="small">Ordered checklist for LinkedIn + CV + send gate. No second app.</p>
+        <p><a className="nav-link" href="#/jobops">Open JobOps checklist →</a></p>
+      </div>
+
         <p className="showcase-note">
           Employer-facing Tier A only: Mum PC Helper · Look Up · zero-to-hero-it
         </p>

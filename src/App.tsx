@@ -10,6 +10,7 @@ import { Credentials } from './pages/Credentials'
 import { Recovery } from './pages/Recovery'
 import { PackageLibrary } from './pages/PackageLibrary'
 import { Projects } from './pages/Projects'
+import { JobOps } from './pages/JobOps'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="recovery" element={<Recovery />} />
           <Route path="package" element={<PackageLibrary />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="jobops" element={<JobOps />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

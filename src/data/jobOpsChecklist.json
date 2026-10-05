@@ -1,0 +1,61 @@
+{
+  "title": "JobOps checklist",
+  "updated": "2026-10-05",
+  "walls": [
+    "Applied = 0 until Alan says send",
+    "No TTM on personal LinkedIn or job CV",
+    "UC / LCFW / ADP off the public face",
+    "£0 · ComicCoder23 public GitHub"
+  ],
+  "done": [
+    "Practice lines spoken",
+    "Dates / COVID / HNC / master profile locked",
+    "Public scrub PRs merged (Tier A bundle clean)",
+    "Helpdesk CV approved + PDF built",
+    "HCLTech marked never send"
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "status": "open",
+      "title": "LinkedIn job face",
+      "detail": "Convert alan-gray-51477b82 using Desktop LINKEDIN_PASTE_NOW.md. One personal profile only.",
+      "url": "https://www.linkedin.com/in/alan-gray-51477b82"
+    },
+    {
+      "id": 2,
+      "status": "open",
+      "title": "TTM holding pen",
+      "detail": "Strip TTM text into Desktop TTM_LINKEDIN_HOLDING_PEN.md for a later Company Page.",
+      "url": null
+    },
+    {
+      "id": 3,
+      "status": "ready",
+      "title": "CV PDF for forms",
+      "detail": "Use Desktop Alan_Gray_Helpdesk_CV_2026-10-05.pdf (also on night-shift Drive).",
+      "url": "https://drive.google.com/file/d/1PD5AIlwiWJ8CMxvRwjSvKXICmdvK85PK/view"
+    },
+    {
+      "id": 4,
+      "status": "optional",
+      "title": "Practice lines refresh",
+      "detail": "Desktop PRACTICE_LINES_READ_ALOUD.md — password check-first · MFA left on · ticket in user words.",
+      "url": null
+    },
+    {
+      "id": 5,
+      "status": "gated",
+      "title": "Say send",
+      "detail": "No apply until Alan says send for a named role. Default: never send.",
+      "url": null
+    }
+  ],
+  "proof": [
+    { "name": "Mum PC Helper", "url": "https://github.com/ComicCoder23/mums-pc-helper" },
+    { "name": "Look Up", "url": "https://comiccoder23.github.io/lookup/" },
+    { "name": "zero-to-hero-it", "url": "https://comiccoder23.github.io/zero-to-hero-it/" }
+  ],
+  "driveFolder": "https://drive.google.com/drive/folders/1v2v1T0mrWGf9STegnbm3RtHQ6YrnRYzD",
+  "desktopNote": "Old Boot Desktop keeps only: README_DO_IN_ORDER · LINKEDIN_PASTE_NOW · TTM holding pen · CV PDF · practice lines."
+}

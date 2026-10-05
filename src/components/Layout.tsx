@@ -4,6 +4,7 @@ const NAV = [
   { to: '/', label: 'Command Home', end: true },
   { to: '/jobs', label: 'Job Queue', end: false },
   { to: '/apply-kit', label: 'Apply Kit', end: false },
+  { to: '/jobops', label: 'JobOps', end: false },
   { to: '/learning', label: 'Learning & XP', end: false },
   { to: '/funding', label: 'Funding & Money', end: false },
   { to: '/bots', label: 'Bot Team', end: false },
@@ -39,7 +40,7 @@ export function Layout() {
           ))}
         </nav>
         <p className="sidebar-foot">
-          Colourful · curved · orb UI · UK English · TTM showcase-only · contained
+          Colourful · curved · orb UI · UK English · JobOps checklist · Tier A public
         </p>
       </aside>
       <main className="main">
