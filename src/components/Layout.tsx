@@ -1,17 +1,9 @@
 import { NavLink, Outlet } from 'react-router-dom'
 
 const NAV = [
-  { to: '/', label: 'Command Home', end: true },
-  { to: '/jobs', label: 'Job Queue', end: false },
-  { to: '/apply-kit', label: 'Apply Kit', end: false },
-  { to: '/jobops', label: 'JobOps', end: false },
-  { to: '/learning', label: 'Learning & XP', end: false },
-  { to: '/funding', label: 'Funding & Money', end: false },
-  { to: '/bots', label: 'Bot Team', end: false },
-  { to: '/credentials', label: 'Credentials', end: false },
-  { to: '/recovery', label: 'Recovery Guardian', end: false },
-  { to: '/package', label: 'Package Library', end: false },
-  { to: '/projects', label: 'Proof Projects', end: false },
+  { to: '/', label: 'Home', end: true },
+  { to: '/projects', label: 'Projects', end: false },
+  { to: '/learning', label: 'Learning path', end: false },
 ]
 
 export function Layout() {
@@ -19,10 +11,10 @@ export function Layout() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-mark">LM</div>
+          <div className="brand-mark">ZH</div>
           <div>
-            <div className="brand-title">Career Leveling Machine</div>
-            <div className="brand-sub">ComicCoder23 · liquid ops</div>
+            <div className="brand-title">Zero to Hero IT</div>
+            <div className="brand-sub">ComicCoder23 · IT support portfolio</div>
           </div>
         </div>
         <nav className="nav">
@@ -40,7 +32,7 @@ export function Layout() {
           ))}
         </nav>
         <p className="sidebar-foot">
-          Colourful · curved · orb UI · UK English · JobOps checklist · Tier A public
+          Aspiring IT support / help desk · Glasgow / Central Scotland
         </p>
       </aside>
       <main className="main">

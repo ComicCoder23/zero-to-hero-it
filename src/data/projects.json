@@ -1,29 +1,29 @@
 {
   "identity": "ComicCoder23",
   "githubBase": "https://github.com/ComicCoder23",
-  "rule": "Tier A employer-facing proof only: Mum PC Helper, Look Up, zero-to-hero-it. No TTM, Practice project, Practice project, or Practice project on this public surface.",
+  "intro": "Public practice projects that show how I troubleshoot, document and learn. They're personal projects, not paid work.",
   "projects": [
     {
       "name": "Mum PC Helper",
       "slug": "mums-pc-helper",
-      "oneLiner": "Windows field-support kit \u2014 structured docs + audit-only PowerShell for safer home-PC checks",
-      "jobValue": "Primary 1st-line proof \u2014 customer calm + Windows troubleshooting",
+      "oneLiner": "Windows home-PC support kit: structured docs and audit-only PowerShell for safer home-PC checks",
+      "jobValue": "Shows 1st line skills: calm, step-by-step Windows troubleshooting and clear guidance for a non-technical user",
       "status": "Public repo",
       "url": "https://github.com/ComicCoder23/mums-pc-helper"
     },
     {
       "name": "Look Up",
       "slug": "lookup",
-      "oneLiner": "Privacy-first eclipse companion (vanilla JS PWA) \u2014 learning proof",
-      "jobValue": "Shows shipped web work end-to-end",
+      "oneLiner": "Privacy-first eclipse companion (vanilla JS PWA), built as a learning project",
+      "jobValue": "Shows a small web project taken from start to a live page",
       "status": "Public Pages",
       "url": "https://comiccoder23.github.io/lookup/"
     },
     {
       "name": "zero-to-hero-it",
       "slug": "zero-to-hero-it",
-      "oneLiner": "Public career-leveling record of the return to IT",
-      "jobValue": "Honest junior builder timeline \u2014 not employment",
+      "oneLiner": "This site: a public record of my help desk learning path and projects",
+      "jobValue": "An honest junior timeline of practice and study, not paid IT work",
       "status": "Public Pages",
       "url": "https://github.com/ComicCoder23/zero-to-hero-it"
     }
