@@ -7,30 +7,28 @@ const ART: Record<string, string> = {
   'mums-pc-helper': 'art-mum',
   lookup: 'art-lookup',
   'zero-to-hero-it': 'art-cc23',
-  ZtHIT: 'art-cc23',
 }
 
 const ORB: Record<string, string> = {
   'mums-pc-helper': 'orb-mum',
   lookup: 'orb-lookup',
   'zero-to-hero-it': 'orb-cc23',
-  ZtHIT: 'orb-cc23',
 }
 
 export function Projects() {
   return (
     <Panel
-      title="Proof Projects"
-      subtitle="Tier A only — Mum PC Helper · Look Up · career leveling record"
+      title="Projects"
+      subtitle="Mum PC Helper · Look Up · zero-to-hero-it"
     >
       <div className="liquid-divider" />
-      <p className="callout">{projects.rule}</p>
+      <p className="callout">{projects.intro}</p>
       <p className="muted small">
-        Identity:{' '}
+        GitHub:{' '}
         <ExtLink href={projects.githubBase}>{projects.identity}</ExtLink>
       </p>
 
-      <ShowcaseStrip variant="tierA" />
+      <ShowcaseStrip />
 
       <div className="project-grid">
         {projects.projects.map((p) => (

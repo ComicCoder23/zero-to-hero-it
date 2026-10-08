@@ -1,57 +1,36 @@
-# Career Leveling Machine — ComicCoder23
+# Zero to Hero IT — ComicCoder23
 
-Local **job-ops dashboard** for continuous applications, learning XP, demo work-allowance guardrail, bot roster, SQA/LinkedIn status, and a colourful portfolio showcase.
+**Aspiring IT support / help desk analyst in Glasgow / Central Scotland, with an HNC in Computing.**
 
-**Path:** `/workspace/alan-leveling-machine/`  
-**Stack:** Vite + React + TypeScript · UK English  
-**Data:** static JSON under `src/data/` (derived from `/workspace/alan-portfolio-package/`)
+This repo is my public learning record for moving into 1st line IT support. It brings together my troubleshooting practice, my help desk learning path and the small projects I've documented along the way.
 
-## Run
+**Live site:** https://comiccoder23.github.io/zero-to-hero-it/
+
+## For recruiters: check it in 2 minutes
+
+| What to look at | Link | What it shows |
+|---|---|---|
+| Mum PC Helper | https://github.com/ComicCoder23/mums-pc-helper | Windows home-PC support kit: step-by-step troubleshooting docs and audit-only PowerShell checks, written for a non-technical user |
+| Learning path | https://comiccoder23.github.io/zero-to-hero-it/#/learning | My help desk study plan: Google IT Support, CompTIA A+ objectives, networking basics, ticketing and escalation practice |
+| Look Up | https://comiccoder23.github.io/lookup/ | A small privacy-first web app (vanilla JS PWA) that I built and shipped myself |
+| All projects | https://comiccoder23.github.io/zero-to-hero-it/#/projects | Project cards with a one-line summary of what each one shows |
+| GitHub profile | https://github.com/ComicCoder23 | Everything public under the ComicCoder23 handle |
+
+## What I bring
+
+- A customer-service background: phones, calm escalation, follow-through.
+- An HNC in Computing.
+- Hands-on Windows troubleshooting practice, written up so other people can follow it.
+- Ongoing self-study towards Google IT Support and CompTIA A+.
+
+These are practice and learning projects, not paid IT work. I'm looking for my first 1st line / service desk role.
+
+## About the site
+
+Built with Vite, React and TypeScript in UK English. Static data lives in `src/data/`. It deploys to GitHub Pages from `main` through `.github/workflows/pages.yml`.
 
 ```bash
-cd /workspace/alan-leveling-machine
 npm install
-npm run dev
+npm run dev     # local preview
+npm run build   # production build
 ```
-
-Open the Vite URL (usually http://localhost:5173).  
-Production check: `npm run build`
-
-## Design
-
-Pretty colourful liquid-metal / orb UI: curved cards, glass panels, animated chrome orbs.  
-**Showcase strip** features: Tech Tradie Media (public), Mum PC Helper, Look Up, Memory City, KCH Radar, ComicCoder23, ComicCoder23 Builds.
-
-**TTM containment:** TTM appears as a **showcase-only** tile (public site + public LinkedIn). It does **not** bleed into Job Queue, Apply Kit copy, personal LinkedIn drafts, cover notes, or Learning job-path strips (`variant="jobSafe"`).
-
-## Panels
-
-| Panel | Route | What it does |
-|---|---|---|
-| Command Home | `/` | Hero showcase (incl. TTM), North Star, P0s, demo work-allowance meter, quick links |
-| Job Queue | `/jobs` | Kanban/table + daily digest + live job boards/recruiters (no TTM) |
-| Apply Kit | `/apply-kit` | Prefill profile fields, cover note, ATS, CV blurb, education safe line — **Copy** buttons (no TTM) |
-| Learning & XP | `/learning` | Streak, L1–L4, 12-week plan, YouTube/community links |
-| Funding & Money | `/funding` | Scotland routes + demo work-allowance guardrail + live funding links |
-| Bot Team | `/bots` | All 8 geeky bots + status chips |
-| Credentials | `/credentials` | SQA dual SCN (values redacted in public build) + personal LinkedIn draft + TTM LI note (separate) |
-| Recovery Guardian | `/recovery` | Watt Watcher alerts (internal) |
-| Package Library | `/package` | Index of package files 01–37 + ChatGPT plan “not found” |
-| Proof Projects | `/projects` | Full showcase (incl. TTM) + ComicCoder23 job-safe cards |
-
-## Live links & copy blocks
-
-Every external URL opens in a new tab (`rel=noopener`).  
-Copy blocks use `navigator.clipboard` for cover note, LinkedIn draft, ATS keywords, digests, recruiter stub, Apply Kit field dump.
-
-## Hard rules
-
-- Do **not** push to GitHub from this app folder unless the operator asks.
-- Do **not** edit TTM site sources or private portfolio TTM branding folders.
-- No auto-send email / no LinkedIn account creation from the UI.
-- Agents: ComicCoder23 GitHub read-only.
-
-## Related package docs
-
-- Plan: `/workspace/alan-portfolio-package/36-LEVELING-MACHINE-FRONTEND-PLAN.md`
-- Status: `/workspace/alan-portfolio-package/37-LEVELING-MACHINE-FRONTEND.md`

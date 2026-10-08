@@ -1,38 +1,32 @@
 {
   "currentFocusLevel": "L1",
-  "streak": {
-    "days": 0,
-    "isPlaceholder": true,
-    "label": "Placeholder streak (not logged yet)",
-    "note": "Honest placeholder \u2014 start logging 25-min blocks; one ADHD-friendly block still counts as Done. Do not invent a streak."
-  },
   "twelveWeekHighlights": [
     {
-      "weeks": "1\u20134",
+      "weeks": "1–4",
       "title": "Help desk core",
       "items": [
-        "Google IT Support Professional Certificate (Coursera \u2014 free audit)",
+        "Google IT Support Professional Certificate (Coursera — free audit)",
         "CompTIA A+ objectives map (Core 1 / Core 2 V15)",
         "NetworkChuck HELPDESK / first IT job orientation",
-        "Daily: 25\u201340 min video + 15 min notes; 1 Mum PC Helper refresh"
+        "Daily: 25–40 min video + 15 min notes; keep Mum PC Helper docs up to date"
       ]
     },
     {
-      "weeks": "5\u20138",
+      "weeks": "5–8",
       "title": "A+ depth + Windows/M365",
       "items": [
         "A+ Core 1 hardware/networking labs",
         "Free CCNA Day 1 switch foundations (conceptual)",
-        "Ticketing language, escalation notes, reproduce \u2192 isolate \u2192 document"
+        "Ticketing language, escalation notes, reproduce → isolate → document"
       ]
     },
     {
-      "weeks": "9\u201312",
+      "weeks": "9–12",
       "title": "Cert attempt + stretch",
       "items": [
-        "Sit CompTIA A+ (or schedule voucher / FSF)",
-        "Security+ as stretch after A+ unless FSF pushes earlier",
-        "Keep vibe-coding builds small and job-relevant"
+        "Sit CompTIA A+ (or book the exam)",
+        "Security+ as a stretch goal after A+",
+        "Keep side builds small and relevant to IT support"
       ]
     }
   ],
@@ -41,7 +35,7 @@
       "id": "L1",
       "name": "IT Help Desk / 1st Line",
       "primary": true,
-      "fit": "Soft skills + Mum PC Helper + computing foundation",
+      "fit": "Customer-service skills + Mum PC Helper + HNC Computing",
       "gaps": "Ticketing vocabulary, A+ or Google IT Support, AD/M365 familiarity",
       "unlock": "4 weeks Google IT + continuous applications + A+ study start"
     },
@@ -59,15 +53,7 @@
       "primary": false,
       "fit": "Networking experiments + Docker + local-first builds",
       "gaps": "Ticket volume narrative, Network+ or strong A+ Network domain",
-      "unlock": "NetworkChuck labs + Security+ if funding"
-    },
-    {
-      "id": "L4",
-      "name": "Sales Engineer / Technical Account",
-      "primary": false,
-      "fit": "Strong commercial history + product demos (Look Up)",
-      "gaps": "Employer CRM + product depth in their stack",
-      "unlock": "2 demo recordings + Salesforce talking points from previous employer"
+      "unlock": "NetworkChuck labs, then Network+ or Security+"
     }
   ],
   "volunteeringTargets": [
@@ -88,12 +74,12 @@
     },
     {
       "name": "Library digital support / Digital Champions",
-      "why": "Face-to-face Windows/phone help \u2014 closest to help desk",
+      "why": "Face-to-face Windows/phone help — closest to help desk",
       "url": ""
     },
     {
       "name": "Mum PC Helper public docs",
-      "why": "Already built \u2014 tidy how-tos as community help",
+      "why": "Already built — tidy how-tos as community help",
       "url": "https://github.com/ComicCoder23/mums-pc-helper"
     }
   ],
@@ -127,18 +113,5 @@
       "block": "Rest or light review"
     }
   ],
-  "rule": "Learning never pauses applications. ADHD day: one 25-minute block still counts.",
-  "dailyUpdatesDesign": {
-    "source": "08-DAILY-LEARNING-UPDATES.md",
-    "running": false,
-    "label": "Daily learning updates design (not running yet)",
-    "schema": [
-      "Yesterday's block (or ADHD 25-min Done)",
-      "Today's focus (L1 cert / lab / notes)",
-      "YouTube or course link used",
-      "Community / meetup touch (optional)",
-      "One sentence for voice"
-    ],
-    "liveLinks": "links.json \u2192 youtube + communities + meetups"
-  }
+  "approach": "Short daily study blocks (video, notes and a hands-on lab), with what I fix written up as proof. Learning runs alongside job applications."
 }

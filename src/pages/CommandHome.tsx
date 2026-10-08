@@ -1,90 +1,75 @@
-import northStar from '../data/northStar.json'
-import links from '../data/links.json'
 import profile from '../data/profile.json'
 import { Panel } from '../components/Panel'
-import { StatusChip } from '../components/StatusChip'
 import { ExtLink } from '../components/ExtLink'
 import { ShowcaseStrip } from '../components/ShowcaseStrip'
 
 export function CommandHome() {
   return (
     <Panel
-      title="Command Home"
-      subtitle="Tier A proof · North Star · today’s P0s"
+      title="Zero to Hero IT"
+      subtitle="IT support / help desk portfolio · ComicCoder23"
     >
       <div className="hero">
-        <p className="hero-kicker">Career showcase · Glasgow / Central Scotland</p>
+        <p className="hero-kicker">IT support portfolio · {profile.locationForApps}</p>
         <h2>{profile.fullName}</h2>
         <p className="hero-lead">
-          IT Help Desk / 1st Line candidate · building small public IT projects
-          under{' '}
-          <ExtLink href={profile.githubUrl}>ComicCoder23</ExtLink> · calm
-          customer-service career pivoting into Windows support with real
-          public proof. North Star: {northStar.statement}
+          Aspiring IT support / help desk analyst with an {profile.education}.
+          I come from customer service, and I'm moving into Windows support.
+          This site shows my troubleshooting practice, my help desk learning
+          path and the projects I've documented under{' '}
+          <ExtLink href={profile.githubUrl}>ComicCoder23</ExtLink>.
         </p>
         <div className="hero-meta">
           <span className="pill">
-            <span className="pill-dot" /> {northStar.primaryTarget}
+            <span className="pill-dot" /> {profile.targetRole}
           </span>
-          <span className="pill">{profile.locationForApps}</span>
-          <span className="pill">GitHub · ComicCoder23</span>
+          <span className="pill">{profile.education}</span>
+          <span className="pill">{profile.rightToWork}</span>
         </div>
         <div className="liquid-divider" />
-        <ShowcaseStrip variant="tierA" />
-      <div className="card">
-        <h3>JobOps — do next</h3>
-        <p className="small">Ordered checklist for LinkedIn + CV + send gate. No second app.</p>
-        <p><a className="nav-link" href="#/jobops">Open JobOps checklist →</a></p>
+        <ShowcaseStrip />
       </div>
 
-        <p className="showcase-note">
-          Employer-facing Tier A only: Mum PC Helper · Look Up · zero-to-hero-it
+      <div className="card">
+        <h3>What this site shows</h3>
+        <ul>
+          <li>
+            <strong>Troubleshooting practice:</strong> Mum PC Helper is a
+            Windows home-PC support kit. It has step-by-step checks, audit-only
+            PowerShell and plain-English guidance for a non-technical user.
+          </li>
+          <li>
+            <strong>Help desk learning path:</strong> Google IT Support,
+            CompTIA A+ objectives, networking basics, plus ticketing and
+            escalation practice (reproduce, isolate, document).
+          </li>
+          <li>
+            <strong>Documented projects:</strong> small public builds with a
+            short write-up of what each one shows.
+          </li>
+        </ul>
+        <p className="muted small">
+          These are practice and learning projects, not paid IT work. I'm
+          looking for my first 1st line / service desk role.
         </p>
       </div>
 
-      <div className="banner">
-        <p className="banner-kicker">North Star</p>
-        <h2>{northStar.statement}</h2>
-        <p>
-          Primary: <strong>{northStar.primaryTarget}</strong> ·{' '}
-          {northStar.geography}
-        </p>
-        <ul className="inline-list">
-          {northStar.doctrine.map((d) => (
-            <li key={d}>{d}</li>
-          ))}
-        </ul>
-      </div>
-
       <div className="card">
-        <h3>Today’s P0 priorities</h3>
-        <p className="muted small">Updated for JobOps lock · 4 Oct 2026</p>
-        <ul className="priority-list">
-          {northStar.prioritiesP0.map((p) => (
-            <li key={p.id}>
-              <div className="priority-row">
-                <strong>{p.label}</strong>
-                <StatusChip status={p.status} />
-              </div>
-              <p className="muted small">{p.why}</p>
-              <p className="tiny">Owner: {p.owner}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="card">
-        <h3>Quick links</h3>
+        <h3>Recruiters: check it in 2 minutes</h3>
         <div className="link-cloud">
-          {links.jobBoards.map((l) => (
-            <ExtLink key={l.url} href={l.url}>
-              {l.name}
-            </ExtLink>
-          ))}
-          <ExtLink href={links.linkedin.personalJoin.url}>
-            {links.linkedin.personalJoin.name}
+          <ExtLink href="https://github.com/ComicCoder23/mums-pc-helper">
+            Mum PC Helper (troubleshooting docs)
           </ExtLink>
-          <ExtLink href={profile.githubUrl}>GitHub ComicCoder23</ExtLink>
+          <a className="ext-link" href="#/learning">
+            Learning path
+          </a>
+          <a className="ext-link" href="#/projects">
+            All projects
+          </a>
+          <ExtLink href="https://comiccoder23.github.io/lookup/">
+            Look Up (live web app)
+          </ExtLink>
+          <ExtLink href={profile.githubUrl}>GitHub · ComicCoder23</ExtLink>
         </div>
       </div>
     </Panel>
