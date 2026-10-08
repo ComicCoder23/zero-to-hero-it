@@ -399,8 +399,6 @@ a.ext-link:hover, .ext-link:hover {
   border: 1px solid var(--border);
 }
 
-.uc-meter { display: flex; flex-direction: column; gap: 0.55rem; }
-.uc-meter-top { display: flex; justify-content: space-between; gap: 1rem; }
 .meter-track {
   height: 12px; border-radius: var(--radius-pill);
   background: rgba(255,255,255,0.06);
@@ -635,15 +633,6 @@ th { color: var(--muted); font-weight: 650; font-size: 0.8rem; }
   .cadence { columns: 1; }
 }
 
-/* Contained brand showcase orb — public tile only */
-.orb-ttm {
-  background: radial-gradient(circle at 30% 30%, #fff, #38bdf8 28%, #0ea5e9 55%, #0369a1 78%, #0c4a6e);
-  box-shadow: 0 0 28px rgba(14, 165, 233, 0.65);
-}
-.showcase-ttm {
-  border-color: rgba(56, 189, 248, 0.45);
-  box-shadow: 0 0 28px rgba(14, 165, 233, 0.22);
-}
 .showcase-card-link {
   display: block;
   text-decoration: none;
@@ -676,12 +665,6 @@ th { color: var(--muted); font-weight: 650; font-size: 0.8rem; }
   background: linear-gradient(90deg, #38bdf8, #a78bfa);
   color: #041018;
   font-weight: 700;
-}
-.art-ttm {
-  background:
-    radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.45), transparent 50%),
-    radial-gradient(circle at 80% 70%, rgba(14, 165, 233, 0.25), transparent 45%),
-    linear-gradient(135deg, #082f49, #1a1028);
 }
 .section-label {
   margin: 0.4rem 0 0;
