@@ -4,13 +4,13 @@ import { ExtLink } from '../components/ExtLink'
 import { ShowcaseStrip } from '../components/ShowcaseStrip'
 
 const ART: Record<string, string> = {
-  'mums-pc-helper': 'art-mum',
+  'pc-health-check-kit': 'art-mum',
   lookup: 'art-lookup',
   'zero-to-hero-it': 'art-cc23',
 }
 
 const ORB: Record<string, string> = {
-  'mums-pc-helper': 'orb-mum',
+  'pc-health-check-kit': 'orb-mum',
   lookup: 'orb-lookup',
   'zero-to-hero-it': 'orb-cc23',
 }
@@ -19,7 +19,7 @@ export function Projects() {
   return (
     <Panel
       title="Projects"
-      subtitle="Mum PC Helper · Look Up · zero-to-hero-it"
+      subtitle="PC Health Check Kit · Look Up · zero-to-hero-it"
     >
       <div className="liquid-divider" />
       <p className="callout">{projects.intro}</p>
