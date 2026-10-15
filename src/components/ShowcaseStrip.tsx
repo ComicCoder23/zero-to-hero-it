@@ -11,15 +11,15 @@ export type ShowcaseItem = {
 /** Public projects shown to employers. */
 export const SHOWCASE: ShowcaseItem[] = [
   {
-    name: 'Mum PC Helper',
-    blurb: 'Windows home-PC support kit',
+    name: 'PC Health Check Kit',
+    blurb: 'Read-only PowerShell checks',
     orbClass: 'orb-mum',
-    url: 'https://github.com/ComicCoder23/mums-pc-helper',
+    url: 'https://comiccoder23.github.io/pc-health-check-kit/',
     featured: true,
   },
   {
     name: 'Look Up',
-    blurb: 'Eclipse PWA',
+    blurb: 'sky calendar',
     orbClass: 'orb-lookup',
     url: 'https://comiccoder23.github.io/lookup/',
   },

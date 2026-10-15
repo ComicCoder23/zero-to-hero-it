@@ -34,14 +34,14 @@ export function CommandHome() {
         <h3>What this site shows</h3>
         <ul>
           <li>
-            <strong>Troubleshooting practice:</strong> Mum PC Helper is a
-            Windows home-PC support kit. It has step-by-step checks, audit-only
-            PowerShell and plain-English guidance for a non-technical user.
+            <strong>Troubleshooting practice:</strong> PC Health Check Kit is a
+            short checklist plus read-only PowerShell checks. I wrote it after
+            fixing my mum's slow PC by hand. Not yet run on another PC.
           </li>
           <li>
             <strong>Help desk learning path:</strong> Google IT Support,
-            CompTIA A+ objectives, networking basics, plus ticketing and
-            escalation practice (reproduce, isolate, document).
+            CompTIA A+ objectives and networking basics.
+            
           </li>
           <li>
             <strong>Documented projects:</strong> small public builds with a
@@ -55,10 +55,10 @@ export function CommandHome() {
       </div>
 
       <div className="card">
-        <h3>Recruiters: check it in 2 minutes</h3>
+        <h3>Links</h3>
         <div className="link-cloud">
-          <ExtLink href="https://github.com/ComicCoder23/mums-pc-helper">
-            Mum PC Helper (troubleshooting docs)
+          <ExtLink href="https://comiccoder23.github.io/pc-health-check-kit/">
+            PC Health Check Kit
           </ExtLink>
           <a className="ext-link" href="#/learning">
             Learning path
@@ -67,7 +67,7 @@ export function CommandHome() {
             All projects
           </a>
           <ExtLink href="https://comiccoder23.github.io/lookup/">
-            Look Up (live web app)
+            Look Up — sky calendar
           </ExtLink>
           <ExtLink href={profile.githubUrl}>GitHub · ComicCoder23</ExtLink>
         </div>

@@ -4,17 +4,17 @@
   "intro": "Public practice projects that show how I troubleshoot, document and learn. They're personal projects, not paid work.",
   "projects": [
     {
-      "name": "Mum PC Helper",
-      "slug": "mums-pc-helper",
-      "oneLiner": "Windows home-PC support kit: structured docs and audit-only PowerShell for safer home-PC checks",
+      "name": "PC Health Check Kit",
+      "slug": "pc-health-check-kit",
+      "oneLiner": "I fixed my mum's slow PC by hand, then wrote read-only PowerShell checks so the same steps can be repeated safely. Not yet run on another PC",
       "jobValue": "Shows 1st line skills: calm, step-by-step Windows troubleshooting and clear guidance for a non-technical user",
       "status": "Public repo",
-      "url": "https://github.com/ComicCoder23/mums-pc-helper"
+      "url": "https://comiccoder23.github.io/pc-health-check-kit/"
     },
     {
-      "name": "Look Up",
+      "name": "Look Up — sky calendar",
       "slug": "lookup",
-      "oneLiner": "Privacy-first eclipse companion (vanilla JS PWA), built as a learning project",
+      "oneLiner": "Started as a page for the August 2026 eclipse. Turning into a sky calendar",
       "jobValue": "Shows a small web project taken from start to a live page",
       "status": "Public Pages",
       "url": "https://comiccoder23.github.io/lookup/"

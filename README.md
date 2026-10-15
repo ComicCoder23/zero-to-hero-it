@@ -6,13 +6,13 @@ This repo is my public learning record for moving into 1st line IT support. It b
 
 **Live site:** https://comiccoder23.github.io/zero-to-hero-it/
 
-## For recruiters: check it in 2 minutes
+## Projects and links
 
 | What to look at | Link | What it shows |
 |---|---|---|
-| Mum PC Helper | https://github.com/ComicCoder23/mums-pc-helper | Windows home-PC support kit: step-by-step troubleshooting docs and audit-only PowerShell checks, written for a non-technical user |
-| Learning path | https://comiccoder23.github.io/zero-to-hero-it/#/learning | My help desk study plan: Google IT Support, CompTIA A+ objectives, networking basics, ticketing and escalation practice |
-| Look Up | https://comiccoder23.github.io/lookup/ | A small privacy-first web app (vanilla JS PWA) that I built and shipped myself |
+| PC Health Check Kit | https://comiccoder23.github.io/pc-health-check-kit/ | I fixed my mum's slow PC by hand, then wrote read-only PowerShell checks so the same steps can be repeated safely. Not yet run on another PC |
+| Learning path | https://comiccoder23.github.io/zero-to-hero-it/#/learning | My help desk study plan: Google IT Support, CompTIA A+ objectives, networking basics |
+| Look Up — sky calendar | https://comiccoder23.github.io/lookup/ | A small web app I built and shipped myself. It started as a page for the August 2026 eclipse and is turning into a sky calendar |
 | All projects | https://comiccoder23.github.io/zero-to-hero-it/#/projects | Project cards with a one-line summary of what each one shows |
 | GitHub profile | https://github.com/ComicCoder23 | Everything public under the ComicCoder23 handle |
 

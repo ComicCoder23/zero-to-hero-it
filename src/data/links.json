@@ -91,15 +91,15 @@
   ],
   "projects": [
     {
-      "name": "Mum PC Helper",
-      "url": "https://github.com/ComicCoder23/mums-pc-helper"
+      "name": "PC Health Check Kit",
+      "url": "https://github.com/ComicCoder23/pc-health-check-kit"
     },
     {
       "name": "Look Up",
       "url": "https://github.com/ComicCoder23/lookup"
     },
     {
-      "name": "Look Up (Pages demo)",
+      "name": "Look Up — sky calendar (live page)",
       "url": "https://comiccoder23.github.io/lookup/"
     },
     {

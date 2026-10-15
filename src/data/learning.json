@@ -8,7 +8,7 @@
         "Google IT Support Professional Certificate (Coursera — free audit)",
         "CompTIA A+ objectives map (Core 1 / Core 2 V15)",
         "NetworkChuck HELPDESK / first IT job orientation",
-        "Daily: 25–40 min video + 15 min notes; keep Mum PC Helper docs up to date"
+        "Daily: 25–40 min video + 15 min notes; keep the PC Health Check Kit docs up to date"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "id": "L1",
       "name": "IT Help Desk / 1st Line",
       "primary": true,
-      "fit": "Customer-service skills + Mum PC Helper + HNC Computing",
+      "fit": "Customer-service skills + PC Health Check Kit + HNC Computing",
       "gaps": "Ticketing vocabulary, A+ or Google IT Support, AD/M365 familiarity",
       "unlock": "4 weeks Google IT + continuous applications + A+ study start"
     },
@@ -43,7 +43,7 @@
       "id": "L2",
       "name": "Desktop / Field Support",
       "primary": false,
-      "fit": "Mum PC Helper + home PC diagnostics + customer calm",
+      "fit": "PC Health Check Kit + home PC diagnostics + customer calm",
       "gaps": "Formal imaging / Intune story, field logistics",
       "unlock": "Document 5 home-lab tickets as case studies"
     },
@@ -78,9 +78,9 @@
       "url": ""
     },
     {
-      "name": "Mum PC Helper public docs",
+      "name": "PC Health Check Kit public docs",
       "why": "Already built — tidy how-tos as community help",
-      "url": "https://github.com/ComicCoder23/mums-pc-helper"
+      "url": "https://github.com/ComicCoder23/pc-health-check-kit"
     }
   ],
   "weeklyCadence": [
@@ -98,7 +98,7 @@
     },
     {
       "day": "Thu",
-      "block": "Portfolio proof (Mum PC Helper / lab write-up)"
+      "block": "Portfolio proof (PC Health Check Kit / lab write-up)"
     },
     {
       "day": "Fri",
